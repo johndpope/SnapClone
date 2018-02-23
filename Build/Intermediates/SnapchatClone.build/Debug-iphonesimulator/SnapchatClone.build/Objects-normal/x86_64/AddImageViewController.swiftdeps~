@@ -19,8 +19,11 @@ depends-top-level:
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
+- !private "Storage"
 - "String"
+- !private "StringLiteralType"
 - !private "UIImage"
+- !private "UIImageJPEGRepresentation"
 - "UIImagePickerController"
 - "UIImagePickerControllerDelegate"
 - !private "UIImagePickerControllerOriginalImage"
@@ -28,10 +31,12 @@ depends-top-level:
 - "UINavigationControllerDelegate"
 - "UITextField"
 - "UIViewController"
-- !private "this"
+- !private "print"
 depends-member:
+- !private ["13SnapchatClone22AddImageViewControllerC", "Storage"]
 - ["13SnapchatClone22AddImageViewControllerC", "String"]
 - !private ["13SnapchatClone22AddImageViewControllerC", "UIImage"]
+- !private ["13SnapchatClone22AddImageViewControllerC", "UIImageJPEGRepresentation"]
 - ["13SnapchatClone22AddImageViewControllerC", "UIImagePickerController"]
 - !private ["13SnapchatClone22AddImageViewControllerC", "UIImagePickerControllerOriginalImage"]
 - ["13SnapchatClone22AddImageViewControllerC", "UIImageView"]
@@ -49,13 +54,18 @@ depends-member:
 - ["13SnapchatClone22AddImageViewControllerC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["13SnapchatClone22AddImageViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
 - ["13SnapchatClone22AddImageViewControllerC", "nextTapped"]
+- !private ["13SnapchatClone22AddImageViewControllerC", "performSegue"]
 - ["13SnapchatClone22AddImageViewControllerC", "photosTapped"]
 - !private ["13SnapchatClone22AddImageViewControllerC", "present"]
-- !private ["13SnapchatClone22AddImageViewControllerC", "this"]
+- !private ["13SnapchatClone22AddImageViewControllerC", "print"]
 - ["13SnapchatClone22AddImageViewControllerC", "viewDidLoad"]
+- !private ["s23BidirectionalCollectionP", "init"]
 - !private ["So15CALayerDelegateP", "image"]
+- !private ["s7CVarArgP", "Storage"]
+- !private ["s7CVarArgP", "UIImageJPEGRepresentation"]
 - ["s7CVarArgP", "UIImagePickerController"]
 - !private ["s7CVarArgP", "UIImagePickerControllerOriginalImage"]
+- !private ["s7CVarArgP", "child"]
 - !private ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "didReceiveMemoryWarning"]
 - !private ["s7CVarArgP", "dismiss"]
@@ -68,15 +78,24 @@ depends-member:
 - ["s7CVarArgP", "navigationController"]
 - ["s7CVarArgP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["s7CVarArgP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s7CVarArgP", "performSegue"]
 - !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "putData"]
+- !private ["s7CVarArgP", "reference"]
 - !private ["s7CVarArgP", "sourceType"]
+- !private ["s7CVarArgP", "storage"]
 - !private ["s7CVarArgP", "subscript"]
-- !private ["s7CVarArgP", "this"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
 - !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Storage"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImageJPEGRepresentation"]
 - ["s28CustomDebugStringConvertibleP", "UIImagePickerController"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImagePickerControllerOriginalImage"]
+- !private ["s28CustomDebugStringConvertibleP", "child"]
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
 - !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s28CustomDebugStringConvertibleP", "dismiss"]
@@ -89,15 +108,24 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "navigationController"]
 - ["s28CustomDebugStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["s28CustomDebugStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
 - !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "putData"]
+- !private ["s28CustomDebugStringConvertibleP", "reference"]
 - !private ["s28CustomDebugStringConvertibleP", "sourceType"]
+- !private ["s28CustomDebugStringConvertibleP", "storage"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
-- !private ["s28CustomDebugStringConvertibleP", "this"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Storage"]
+- !private ["s23CustomStringConvertibleP", "UIImageJPEGRepresentation"]
 - ["s23CustomStringConvertibleP", "UIImagePickerController"]
 - !private ["s23CustomStringConvertibleP", "UIImagePickerControllerOriginalImage"]
+- !private ["s23CustomStringConvertibleP", "child"]
 - !private ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
 - !private ["s23CustomStringConvertibleP", "dismiss"]
@@ -110,18 +138,27 @@ depends-member:
 - ["s23CustomStringConvertibleP", "navigationController"]
 - ["s23CustomStringConvertibleP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["s23CustomStringConvertibleP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
 - !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "putData"]
+- !private ["s23CustomStringConvertibleP", "reference"]
 - !private ["s23CustomStringConvertibleP", "sourceType"]
+- !private ["s23CustomStringConvertibleP", "storage"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
-- !private ["s23CustomStringConvertibleP", "this"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "subscript"]
 - !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "Storage"]
+- !private ["s9EquatableP", "UIImageJPEGRepresentation"]
 - ["s9EquatableP", "UIImagePickerController"]
 - !private ["s9EquatableP", "UIImagePickerControllerOriginalImage"]
 - !private ["s9EquatableP", "camera"]
+- !private ["s9EquatableP", "child"]
 - !private ["s9EquatableP", "delegate"]
 - !private ["s9EquatableP", "didReceiveMemoryWarning"]
 - !private ["s9EquatableP", "dismiss"]
@@ -134,16 +171,26 @@ depends-member:
 - ["s9EquatableP", "navigationController"]
 - ["s9EquatableP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["s9EquatableP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s9EquatableP", "performSegue"]
 - !private ["s9EquatableP", "photoLibrary"]
 - !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "putData"]
+- !private ["s9EquatableP", "reference"]
 - !private ["s9EquatableP", "sourceType"]
-- !private ["s9EquatableP", "this"]
+- !private ["s9EquatableP", "storage"]
 - !private ["s9EquatableP", "viewDidLoad"]
 - ["s9EquatableP", ""]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "Storage"]
+- !private ["s8HashableP", "UIImageJPEGRepresentation"]
 - ["s8HashableP", "UIImagePickerController"]
 - !private ["s8HashableP", "UIImagePickerControllerOriginalImage"]
 - !private ["s8HashableP", "camera"]
+- !private ["s8HashableP", "child"]
 - !private ["s8HashableP", "delegate"]
 - !private ["s8HashableP", "didReceiveMemoryWarning"]
 - !private ["s8HashableP", "dismiss"]
@@ -156,12 +203,20 @@ depends-member:
 - ["s8HashableP", "navigationController"]
 - ["s8HashableP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["s8HashableP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["s8HashableP", "performSegue"]
 - !private ["s8HashableP", "photoLibrary"]
 - !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "putData"]
+- !private ["s8HashableP", "reference"]
 - !private ["s8HashableP", "sourceType"]
-- !private ["s8HashableP", "this"]
+- !private ["s8HashableP", "storage"]
 - !private ["s8HashableP", "viewDidLoad"]
 - ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Storage"]
+- !private ["So8NSCodingP", "UIImageJPEGRepresentation"]
 - ["So8NSCodingP", "UIImagePickerController"]
 - !private ["So8NSCodingP", "UIImagePickerControllerOriginalImage"]
 - !private ["So8NSCodingP", "delegate"]
@@ -176,11 +231,15 @@ depends-member:
 - ["So8NSCodingP", "navigationController"]
 - ["So8NSCodingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So8NSCodingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So8NSCodingP", "performSegue"]
 - !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "print"]
 - !private ["So8NSCodingP", "sourceType"]
-- !private ["So8NSCodingP", "this"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "Storage"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImageJPEGRepresentation"]
 - ["So26NSExtensionRequestHandlingP", "UIImagePickerController"]
 - !private ["So26NSExtensionRequestHandlingP", "UIImagePickerControllerOriginalImage"]
 - !private ["So26NSExtensionRequestHandlingP", "delegate"]
@@ -194,18 +253,25 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "navigationController"]
 - ["So26NSExtensionRequestHandlingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So26NSExtensionRequestHandlingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
 - !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
 - !private ["So26NSExtensionRequestHandlingP", "sourceType"]
-- !private ["So26NSExtensionRequestHandlingP", "this"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "Storage"]
 - ["So8NSObjectC", "String"]
 - !private ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "UIImageJPEGRepresentation"]
 - ["So8NSObjectC", "UIImagePickerController"]
 - !private ["So8NSObjectC", "UIImagePickerControllerOriginalImage"]
 - ["So8NSObjectC", "UIImageView"]
 - ["So8NSObjectC", "UITextField"]
 - ["So8NSObjectC", "cameraTapped"]
+- !private ["So8NSObjectC", "child"]
 - !private ["So8NSObjectC", "delegate"]
 - ["So8NSObjectC", "descriptionTextField"]
 - ["So8NSObjectC", "didReceiveMemoryWarning"]
@@ -220,13 +286,20 @@ depends-member:
 - ["So8NSObjectC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So8NSObjectC", "navigationControllerSupportedInterfaceOrientations"]
 - ["So8NSObjectC", "nextTapped"]
+- !private ["So8NSObjectC", "performSegue"]
 - ["So8NSObjectC", "photosTapped"]
 - !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "putData"]
+- !private ["So8NSObjectC", "reference"]
 - !private ["So8NSObjectC", "sourceType"]
-- !private ["So8NSObjectC", "this"]
+- !private ["So8NSObjectC", "storage"]
 - ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "Storage"]
+- !private ["So16NSObjectProtocolP", "UIImageJPEGRepresentation"]
 - ["So16NSObjectProtocolP", "UIImagePickerController"]
 - !private ["So16NSObjectProtocolP", "UIImagePickerControllerOriginalImage"]
+- !private ["So16NSObjectProtocolP", "child"]
 - !private ["So16NSObjectProtocolP", "delegate"]
 - !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
 - !private ["So16NSObjectProtocolP", "dismiss"]
@@ -239,17 +312,35 @@ depends-member:
 - ["So16NSObjectProtocolP", "navigationController"]
 - ["So16NSObjectProtocolP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So16NSObjectProtocolP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So16NSObjectProtocolP", "performSegue"]
 - !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "putData"]
+- !private ["So16NSObjectProtocolP", "reference"]
 - !private ["So16NSObjectProtocolP", "sourceType"]
-- !private ["So16NSObjectProtocolP", "this"]
+- !private ["So16NSObjectProtocolP", "storage"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s16RawRepresentableP", "camera"]
 - !private ["s16RawRepresentableP", "photoLibrary"]
+- !private ["s8SequenceP", "init"]
 - !private ["s8SequenceP", "subscript"]
+- !private ["So7StorageC", "reference"]
+- !private ["So7StorageC", "storage"]
+- !private ["So16StorageReferenceC", "child"]
+- !private ["So16StorageReferenceC", "putData"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
 - !private ["So29UIAccessibilityIdentificationP", "image"]
 - !private ["So12UIAppearanceP", "image"]
+- !private ["So21UIAppearanceContainerP", "Storage"]
+- !private ["So21UIAppearanceContainerP", "UIImageJPEGRepresentation"]
 - ["So21UIAppearanceContainerP", "UIImagePickerController"]
 - !private ["So21UIAppearanceContainerP", "UIImagePickerControllerOriginalImage"]
 - !private ["So21UIAppearanceContainerP", "delegate"]
@@ -264,11 +355,14 @@ depends-member:
 - ["So21UIAppearanceContainerP", "navigationController"]
 - ["So21UIAppearanceContainerP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So21UIAppearanceContainerP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
 - !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "print"]
 - !private ["So21UIAppearanceContainerP", "sourceType"]
-- !private ["So21UIAppearanceContainerP", "this"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "Storage"]
+- !private ["So18UIContentContainerP", "UIImageJPEGRepresentation"]
 - ["So18UIContentContainerP", "UIImagePickerController"]
 - !private ["So18UIContentContainerP", "UIImagePickerControllerOriginalImage"]
 - !private ["So18UIContentContainerP", "delegate"]
@@ -282,13 +376,16 @@ depends-member:
 - ["So18UIContentContainerP", "navigationController"]
 - ["So18UIContentContainerP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So18UIContentContainerP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So18UIContentContainerP", "performSegue"]
 - !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "print"]
 - !private ["So18UIContentContainerP", "sourceType"]
-- !private ["So18UIContentContainerP", "this"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", ""]
 - !private ["So17UICoordinateSpaceP", "image"]
 - !private ["So13UIDynamicItemP", "image"]
+- !private ["So18UIFocusEnvironmentP", "Storage"]
+- !private ["So18UIFocusEnvironmentP", "UIImageJPEGRepresentation"]
 - ["So18UIFocusEnvironmentP", "UIImagePickerController"]
 - !private ["So18UIFocusEnvironmentP", "UIImagePickerControllerOriginalImage"]
 - !private ["So18UIFocusEnvironmentP", "delegate"]
@@ -303,9 +400,10 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "navigationController"]
 - ["So18UIFocusEnvironmentP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So18UIFocusEnvironmentP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
 - !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "print"]
 - !private ["So18UIFocusEnvironmentP", "sourceType"]
-- !private ["So18UIFocusEnvironmentP", "this"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So11UIFocusItemP", "image"]
@@ -313,6 +411,8 @@ depends-member:
 - !private ["So23UIImagePickerControllerC", "dismiss"]
 - ["So23UIImagePickerControllerC", "init"]
 - !private ["So23UIImagePickerControllerC", "sourceType"]
+- !private ["So31UIImagePickerControllerDelegateP", "Storage"]
+- !private ["So31UIImagePickerControllerDelegateP", "UIImageJPEGRepresentation"]
 - ["So31UIImagePickerControllerDelegateP", "UIImagePickerController"]
 - !private ["So31UIImagePickerControllerDelegateP", "UIImagePickerControllerOriginalImage"]
 - !private ["So31UIImagePickerControllerDelegateP", "imagePicker"]
@@ -322,8 +422,9 @@ depends-member:
 - ["So31UIImagePickerControllerDelegateP", "navigationController"]
 - ["So31UIImagePickerControllerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So31UIImagePickerControllerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So31UIImagePickerControllerDelegateP", "performSegue"]
 - !private ["So31UIImagePickerControllerDelegateP", "present"]
-- !private ["So31UIImagePickerControllerDelegateP", "this"]
+- !private ["So31UIImagePickerControllerDelegateP", "print"]
 - ["So31UIImagePickerControllerDelegateP", ""]
 - !private ["SC33UIImagePickerControllerSourceTypeO", "camera"]
 - !private ["SC33UIImagePickerControllerSourceTypeO", "photoLibrary"]
@@ -332,6 +433,8 @@ depends-member:
 - !private ["So22UINavigationControllerC", "dismiss"]
 - ["So22UINavigationControllerC", "init"]
 - !private ["So22UINavigationControllerC", "sourceType"]
+- !private ["So30UINavigationControllerDelegateP", "Storage"]
+- !private ["So30UINavigationControllerDelegateP", "UIImageJPEGRepresentation"]
 - ["So30UINavigationControllerDelegateP", "UIImagePickerController"]
 - !private ["So30UINavigationControllerDelegateP", "UIImagePickerControllerOriginalImage"]
 - !private ["So30UINavigationControllerDelegateP", "imagePicker"]
@@ -341,9 +444,12 @@ depends-member:
 - ["So30UINavigationControllerDelegateP", "navigationController"]
 - ["So30UINavigationControllerDelegateP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So30UINavigationControllerDelegateP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So30UINavigationControllerDelegateP", "performSegue"]
 - !private ["So30UINavigationControllerDelegateP", "present"]
-- !private ["So30UINavigationControllerDelegateP", "this"]
+- !private ["So30UINavigationControllerDelegateP", "print"]
 - ["So30UINavigationControllerDelegateP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "Storage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImageJPEGRepresentation"]
 - ["So30UIPasteConfigurationSupportingP", "UIImagePickerController"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIImagePickerControllerOriginalImage"]
 - !private ["So30UIPasteConfigurationSupportingP", "delegate"]
@@ -358,13 +464,16 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "navigationController"]
 - ["So30UIPasteConfigurationSupportingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So30UIPasteConfigurationSupportingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
 - !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
 - !private ["So30UIPasteConfigurationSupportingP", "sourceType"]
-- !private ["So30UIPasteConfigurationSupportingP", "this"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "Storage"]
 - ["So11UIResponderC", "String"]
 - !private ["So11UIResponderC", "UIImage"]
+- !private ["So11UIResponderC", "UIImageJPEGRepresentation"]
 - ["So11UIResponderC", "UIImagePickerController"]
 - !private ["So11UIResponderC", "UIImagePickerControllerOriginalImage"]
 - ["So11UIResponderC", "UIImageView"]
@@ -384,11 +493,14 @@ depends-member:
 - ["So11UIResponderC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So11UIResponderC", "navigationControllerSupportedInterfaceOrientations"]
 - ["So11UIResponderC", "nextTapped"]
+- !private ["So11UIResponderC", "performSegue"]
 - ["So11UIResponderC", "photosTapped"]
 - !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "print"]
 - !private ["So11UIResponderC", "sourceType"]
-- !private ["So11UIResponderC", "this"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Storage"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImageJPEGRepresentation"]
 - ["So30UIResponderStandardEditActionsP", "UIImagePickerController"]
 - !private ["So30UIResponderStandardEditActionsP", "UIImagePickerControllerOriginalImage"]
 - !private ["So30UIResponderStandardEditActionsP", "delegate"]
@@ -403,11 +515,14 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "navigationController"]
 - ["So30UIResponderStandardEditActionsP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So30UIResponderStandardEditActionsP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
 - !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
 - !private ["So30UIResponderStandardEditActionsP", "sourceType"]
-- !private ["So30UIResponderStandardEditActionsP", "this"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "Storage"]
+- !private ["So16UIStateRestoringP", "UIImageJPEGRepresentation"]
 - ["So16UIStateRestoringP", "UIImagePickerController"]
 - !private ["So16UIStateRestoringP", "UIImagePickerControllerOriginalImage"]
 - !private ["So16UIStateRestoringP", "delegate"]
@@ -421,11 +536,14 @@ depends-member:
 - ["So16UIStateRestoringP", "navigationController"]
 - ["So16UIStateRestoringP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So16UIStateRestoringP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So16UIStateRestoringP", "performSegue"]
 - !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "print"]
 - !private ["So16UIStateRestoringP", "sourceType"]
-- !private ["So16UIStateRestoringP", "this"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "Storage"]
+- !private ["So18UITraitEnvironmentP", "UIImageJPEGRepresentation"]
 - ["So18UITraitEnvironmentP", "UIImagePickerController"]
 - !private ["So18UITraitEnvironmentP", "UIImagePickerControllerOriginalImage"]
 - !private ["So18UITraitEnvironmentP", "delegate"]
@@ -440,14 +558,17 @@ depends-member:
 - ["So18UITraitEnvironmentP", "navigationController"]
 - ["So18UITraitEnvironmentP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So18UITraitEnvironmentP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
 - !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "print"]
 - !private ["So18UITraitEnvironmentP", "sourceType"]
-- !private ["So18UITraitEnvironmentP", "this"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So6UIViewC", "image"]
+- !private ["So16UIViewControllerC", "Storage"]
 - ["So16UIViewControllerC", "String"]
 - !private ["So16UIViewControllerC", "UIImage"]
+- !private ["So16UIViewControllerC", "UIImageJPEGRepresentation"]
 - ["So16UIViewControllerC", "UIImagePickerController"]
 - !private ["So16UIViewControllerC", "UIImagePickerControllerOriginalImage"]
 - ["So16UIViewControllerC", "UIImageView"]
@@ -466,17 +587,30 @@ depends-member:
 - ["So16UIViewControllerC", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["So16UIViewControllerC", "navigationControllerSupportedInterfaceOrientations"]
 - ["So16UIViewControllerC", "nextTapped"]
+- !private ["So16UIViewControllerC", "performSegue"]
 - ["So16UIViewControllerC", "photosTapped"]
 - !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "print"]
 - !private ["So16UIViewControllerC", "sourceType"]
-- !private ["So16UIViewControllerC", "this"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", ""]
+- !private ["s23_BidirectionalIndexableP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
 - !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "init"]
 - !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Storage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImageJPEGRepresentation"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIImagePickerController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImagePickerControllerOriginalImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "child"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
@@ -489,18 +623,28 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerPreferredInterfaceOrientationForPresentation"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "putData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reference"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "sourceType"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "this"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "13SnapchatClone22AddImageViewControllerC"
+- !private "s23BidirectionalCollectionP"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - !private "s10CollectionP"
+- !private "s10ComparableP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "s9DecodableP"
@@ -508,13 +652,31 @@ depends-nominal:
 - !private "s9EncodableP"
 - "s9EquatableP"
 - !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So8NSCodingP"
+- !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
 - !private "s16RawRepresentableP"
 - !private "s8SequenceP"
+- !private "So7StorageC"
+- !private "So16StorageReferenceC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
@@ -537,11 +699,20 @@ depends-nominal:
 - "So18UITraitEnvironmentP"
 - !private "So6UIViewC"
 - "So16UIViewControllerC"
+- !private "s23_BidirectionalIndexableP"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "s10_IndexableP"
 - !private "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -559,7 +730,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/Firebase/Core/Sources/Firebase.h"
@@ -567,6 +742,10 @@ depends-external:
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
@@ -596,11 +775,14 @@ depends-external:
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
-interface-hash: "a811f5de2d3c2278a1e931ee473f8f01"
+interface-hash: "3b94fa3294f1b37a667e758369dd9ec7"

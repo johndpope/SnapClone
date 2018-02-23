@@ -1,8 +1,9 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "9f46905f433b7874f61d68a42f6bab96"
-build_time: [1519212290, 699185000]
+options: "c62b1f2824361fb45b7012d351f4d40d"
+build_time: [1519385608, 953727000]
 inputs:
   "/Users/jorisw/Documents/XCode/SnapchatClone/SnapchatClone/SnapsTableViewController.swift": [1515411272, 0]
-  "/Users/jorisw/Documents/XCode/SnapchatClone/SnapchatClone/AuthViewController.swift": [1515411086, 0]
-  "/Users/jorisw/Documents/XCode/SnapchatClone/SnapchatClone/AddImageViewController.swift": !private [1519212290, 0]
+  "/Users/jorisw/Documents/XCode/SnapchatClone/SnapchatClone/SelectUserTableViewController.swift": [1519299777, 0]
+  "/Users/jorisw/Documents/XCode/SnapchatClone/SnapchatClone/AuthViewController.swift": [1519385588, 0]
+  "/Users/jorisw/Documents/XCode/SnapchatClone/SnapchatClone/AddImageViewController.swift": [1519299778, 0]
   "/Users/jorisw/Documents/XCode/SnapchatClone/SnapchatClone/AppDelegate.swift": [1515065854, 0]

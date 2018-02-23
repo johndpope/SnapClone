@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1FB8DAD718A8048150B5D177 /* Pods_SnapchatClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838FF8B78EF2859D9EAD26CD /* Pods_SnapchatClone.framework */; };
 		850748A1203D8B4F001B5007 /* AddImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850748A0203D8B4F001B5007 /* AddImageViewController.swift */; };
+		850748A3203EE441001B5007 /* SelectUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850748A2203EE441001B5007 /* SelectUserTableViewController.swift */; };
 		858569A520038D3B0062B58E /* SnapsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858569A420038D3B0062B58E /* SnapsTableViewController.swift */; };
 		85B1C6F01FFCF7D5001F5FAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B1C6EF1FFCF7D5001F5FAB /* AppDelegate.swift */; };
 		85B1C6F21FFCF7D5001F5FAB /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B1C6F11FFCF7D5001F5FAB /* AuthViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		838FF8B78EF2859D9EAD26CD /* Pods_SnapchatClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapchatClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		850748A0203D8B4F001B5007 /* AddImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageViewController.swift; sourceTree = "<group>"; };
+		850748A2203EE441001B5007 /* SelectUserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUserTableViewController.swift; sourceTree = "<group>"; };
 		858569A420038D3B0062B58E /* SnapsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsTableViewController.swift; sourceTree = "<group>"; };
 		85B1C6EC1FFCF7D5001F5FAB /* SnapchatClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapchatClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B1C6EF1FFCF7D5001F5FAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				85B1C6FB1FFCF7D5001F5FAB /* Info.plist */,
 				858569A420038D3B0062B58E /* SnapsTableViewController.swift */,
 				850748A0203D8B4F001B5007 /* AddImageViewController.swift */,
+				850748A2203EE441001B5007 /* SelectUserTableViewController.swift */,
 			);
 			path = SnapchatClone;
 			sourceTree = "<group>";
@@ -175,9 +178,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SnapchatClone/Pods-SnapchatClone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -190,13 +202,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapchatClone-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A4DC59E6DC4A7BDB267DBA13 /* [CP] Copy Pods Resources */ = {
@@ -222,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				858569A520038D3B0062B58E /* SnapsTableViewController.swift in Sources */,
+				850748A3203EE441001B5007 /* SelectUserTableViewController.swift in Sources */,
 				85B1C6F21FFCF7D5001F5FAB /* AuthViewController.swift in Sources */,
 				850748A1203D8B4F001B5007 /* AddImageViewController.swift in Sources */,
 				85B1C6F01FFCF7D5001F5FAB /* AppDelegate.swift in Sources */,

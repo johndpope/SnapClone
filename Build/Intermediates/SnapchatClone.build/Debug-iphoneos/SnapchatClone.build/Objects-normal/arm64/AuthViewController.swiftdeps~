@@ -42,6 +42,7 @@ depends-member:
 - ["13SnapchatClone18AuthViewControllerC", "init"]
 - ["13SnapchatClone18AuthViewControllerC", "loginMode"]
 - ["13SnapchatClone18AuthViewControllerC", "passwordTextField"]
+- !private ["13SnapchatClone18AuthViewControllerC", "performSegue"]
 - !private ["13SnapchatClone18AuthViewControllerC", "print"]
 - ["13SnapchatClone18AuthViewControllerC", "toggleButton"]
 - ["13SnapchatClone18AuthViewControllerC", "toggleButtonTapped"]
@@ -59,6 +60,7 @@ depends-member:
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "loginMode"]
 - !private ["s7CVarArgP", "passwordTextField"]
+- !private ["s7CVarArgP", "performSegue"]
 - !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "setTitle"]
 - !private ["s7CVarArgP", "signIn"]
@@ -77,6 +79,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "loginMode"]
 - !private ["s28CustomDebugStringConvertibleP", "passwordTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "setTitle"]
 - !private ["s28CustomDebugStringConvertibleP", "signIn"]
@@ -98,6 +101,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "loginMode"]
 - !private ["s23CustomStringConvertibleP", "passwordTextField"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
 - !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "setTitle"]
 - !private ["s23CustomStringConvertibleP", "signIn"]
@@ -120,6 +124,7 @@ depends-member:
 - !private ["s9EquatableP", "loginMode"]
 - !private ["s9EquatableP", "normal"]
 - !private ["s9EquatableP", "passwordTextField"]
+- !private ["s9EquatableP", "performSegue"]
 - !private ["s9EquatableP", "print"]
 - !private ["s9EquatableP", "setTitle"]
 - !private ["s9EquatableP", "signIn"]
@@ -142,6 +147,7 @@ depends-member:
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "loginMode"]
 - !private ["s8HashableP", "passwordTextField"]
+- !private ["s8HashableP", "performSegue"]
 - !private ["s8HashableP", "print"]
 - !private ["s8HashableP", "setTitle"]
 - !private ["s8HashableP", "signIn"]
@@ -159,6 +165,7 @@ depends-member:
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "loginMode"]
 - !private ["So8NSCodingP", "passwordTextField"]
+- !private ["So8NSCodingP", "performSegue"]
 - !private ["So8NSCodingP", "print"]
 - !private ["So8NSCodingP", "setTitle"]
 - !private ["So8NSCodingP", "text"]
@@ -173,6 +180,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "loginMode"]
 - !private ["So26NSExtensionRequestHandlingP", "passwordTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
 - !private ["So26NSExtensionRequestHandlingP", "print"]
 - !private ["So26NSExtensionRequestHandlingP", "toggleButton"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
@@ -193,6 +201,7 @@ depends-member:
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "loginMode"]
 - ["So8NSObjectC", "passwordTextField"]
+- !private ["So8NSObjectC", "performSegue"]
 - !private ["So8NSObjectC", "print"]
 - !private ["So8NSObjectC", "setTitle"]
 - !private ["So8NSObjectC", "signIn"]
@@ -209,6 +218,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "loginMode"]
 - !private ["So16NSObjectProtocolP", "passwordTextField"]
+- !private ["So16NSObjectProtocolP", "performSegue"]
 - !private ["So16NSObjectProtocolP", "print"]
 - !private ["So16NSObjectProtocolP", "setTitle"]
 - !private ["So16NSObjectProtocolP", "signIn"]
@@ -239,6 +249,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "loginMode"]
 - !private ["So21UIAppearanceContainerP", "passwordTextField"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
 - !private ["So21UIAppearanceContainerP", "print"]
 - !private ["So21UIAppearanceContainerP", "setTitle"]
 - !private ["So21UIAppearanceContainerP", "text"]
@@ -253,6 +264,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "loginMode"]
 - !private ["So18UIContentContainerP", "passwordTextField"]
+- !private ["So18UIContentContainerP", "performSegue"]
 - !private ["So18UIContentContainerP", "print"]
 - !private ["So18UIContentContainerP", "toggleButton"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
@@ -272,6 +284,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "loginMode"]
 - !private ["So18UIFocusEnvironmentP", "passwordTextField"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
 - !private ["So18UIFocusEnvironmentP", "print"]
 - !private ["So18UIFocusEnvironmentP", "setTitle"]
 - !private ["So18UIFocusEnvironmentP", "text"]
@@ -288,6 +301,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "loginMode"]
 - !private ["So30UIPasteConfigurationSupportingP", "passwordTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
 - !private ["So30UIPasteConfigurationSupportingP", "setTitle"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
@@ -305,6 +319,7 @@ depends-member:
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "loginMode"]
 - ["So11UIResponderC", "passwordTextField"]
+- !private ["So11UIResponderC", "performSegue"]
 - !private ["So11UIResponderC", "print"]
 - !private ["So11UIResponderC", "setTitle"]
 - !private ["So11UIResponderC", "text"]
@@ -318,6 +333,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "loginMode"]
 - !private ["So30UIResponderStandardEditActionsP", "passwordTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
 - !private ["So30UIResponderStandardEditActionsP", "setTitle"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
@@ -332,6 +348,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "loginMode"]
 - !private ["So16UIStateRestoringP", "passwordTextField"]
+- !private ["So16UIStateRestoringP", "performSegue"]
 - !private ["So16UIStateRestoringP", "print"]
 - !private ["So16UIStateRestoringP", "toggleButton"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
@@ -349,6 +366,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "loginMode"]
 - !private ["So18UITraitEnvironmentP", "passwordTextField"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
 - !private ["So18UITraitEnvironmentP", "print"]
 - !private ["So18UITraitEnvironmentP", "setTitle"]
 - !private ["So18UITraitEnvironmentP", "text"]
@@ -368,6 +386,7 @@ depends-member:
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "loginMode"]
 - ["So16UIViewControllerC", "passwordTextField"]
+- !private ["So16UIViewControllerC", "performSegue"]
 - !private ["So16UIViewControllerC", "print"]
 - ["So16UIViewControllerC", "toggleButton"]
 - ["So16UIViewControllerC", "toggleButtonTapped"]
@@ -394,6 +413,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "loginMode"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "passwordTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setTitle"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "signIn"]
@@ -508,7 +528,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/Firebase/Core/Sources/Firebase.h"
@@ -516,6 +540,10 @@ depends-external:
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
@@ -545,10 +573,13 @@ depends-external:
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/jorisw/Documents/XCode/SnapchatClone/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
